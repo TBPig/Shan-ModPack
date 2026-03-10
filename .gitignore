@@ -1,19 +1,29 @@
 /.idea
-natives-linux-x86_64/
-natives-windows-x86_64/
 log4j2.xml
-logs/
 downloads/
 saves/
 usercache.json
 usernamecache.json
-crash-reports/
 local/
-natives-windows-x86_64/glfw.dll
-natives-windows-x86_64/jemalloc.dll
-natives-windows-x86_64/jna4924854173275335658.dll
-natives-windows-x86_64/jna4924854173275335658.dll.x
-natives-windows-x86_64/lwjgl_opengl.dll
-natives-windows-x86_64/lwjgl_stb.dll
-natives-windows-x86_64/lwjgl.dll
-natives-windows-x86_64/OpenAL.dll
+# logs shit
+logs/
+crash-reports/
+
+# windows shit
+natives-windows-x86_64/
+
+# linux shit
+natives-linux-x86_64/
+
+# macos shit
+.DS_Store
+*.icloud
+
+# kubejs shit
+kubejs/assets/kubejs/textures/block/example_block.png
+kubejs/assets/kubejs/textures/item/example_item.png
+kubejs/client_scripts/main.js
+kubejs/startup_scripts/main.js
+kubejs/README.txt
+kubejs/server_scripts/main.js
+command_history.txt
