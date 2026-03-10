@@ -1,5 +1,6 @@
 /.idea
 natives-linux-x86_64/
+natives-windows-x86_64/
 log4j2.xml
 logs/
 downloads/
