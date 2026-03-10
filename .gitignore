@@ -7,3 +7,10 @@ saves/
 usercache.json
 usernamecache.json
 crash-reports/crash-2026-03-10_17.48.55-fml.txt
+/libraries/
+/versions/
+/assets/
+/.hmcl/
+/launcher_profiles.json
+/HMCL-3.9.1.exe
+/local/

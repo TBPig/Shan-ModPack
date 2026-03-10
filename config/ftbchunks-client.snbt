@@ -137,7 +137,26 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:enderman": true
+			"minecraft:cod": false
+			"minecraft:armadillo": true
+			"minecraft:sheep": true
+			"minecraft:bat": true
+			"minecraft:skeleton": true
+			"minecraft:dolphin": true
+			"minecraft:witch": true
+			"minecraft:spider": true
+			"minecraft:iron_golem": true
+			"minecraft:pig": true
+			"minecraft:cow": true
+			"minecraft:chicken": true
+			"minecraft:villager": true
+			"minecraft:horse": true
+			"minecraft:zombie": true
+			"minecraft:creeper": true
+			"minecraft:glow_squid": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
