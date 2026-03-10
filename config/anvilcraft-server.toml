@@ -96,8 +96,6 @@ block_devourer_upward_chain_devouring_distance = 8
 block_placer_recursive_retrieval_distance_max = 7
 #Combining items with Enchanted Books beyond max level in Royal Anvil
 royal_anvil_beyond_max_level = false
-#Combining items with Enchanted Books beyond max level in Frost Anvil
-frost_anvil_beyond_max_level = false
 #Combining items with Enchanted Books beyond max level in Ember Anvil
 ember_anvil_beyond_max_level = false
 #Combining items with Enchanted Books beyond max level in Transcendence Anvil
