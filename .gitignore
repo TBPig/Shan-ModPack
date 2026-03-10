@@ -1,4 +1,8 @@
 /.idea
 natives-linux-x86_64/
-
 log4j2.xml
+logs/
+downloads/
+saves/
+usercache.json
+usernamecache.json
