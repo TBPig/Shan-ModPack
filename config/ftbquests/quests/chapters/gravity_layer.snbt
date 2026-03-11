@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gravity_layer"
+	group: "2433D3270A6AC07D"
+	id: "2EE1121DB48B7388"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

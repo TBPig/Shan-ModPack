@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "water_layer"
+	group: "2433D3270A6AC07D"
+	id: "2AB632055ED2D585"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magnetic_layer"
+	group: "2433D3270A6AC07D"
+	id: "2EEEDDCDC8F52C03"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "core_layer"
+	group: "2433D3270A6AC07D"
+	id: "75F0EA3DA83412D7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "43C2E0BF9A518206"
+		rewards: [{
+			count: 64
+			id: "0D8F826873364093"
+			item: {
+				count: 1
+				id: "anvilcraft:earth_core_shard"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "1AB18B00E23C5FD0"
+			item: { count: 1, id: "anvilcraft:earth_core_shard" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

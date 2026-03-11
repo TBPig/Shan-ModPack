@@ -1,3 +1,22 @@
 {
-	chapter.6470C4CFA8AEF824.title: "test"
+	chapter.2AB632055ED2D585.title: "Water Layer"
+	chapter.2EE1121DB48B7388.title: "Gravity Layer"
+	chapter.2EEEDDCDC8F52C03.title: "Magnetic Layer"
+	chapter.4B361C497F1F2A69.title: "Wet Rock Layer"
+	chapter.4D4EAC017A12A655.title: "materials"
+	chapter.5C6B3A122B681589.title: "Cold Rock Layer"
+	chapter.7431497A57D91F07.title: "welcome"
+	chapter.75F0EA3DA83412D7.title: "Core Layer"
+	chapter_group.2433D3270A6AC07D.title: "mainline"
+	chapter_group.66765C841B5B04E0.title: "info"
+	quest.43C2E0BF9A518206.quest_desc: [
+		"你来自一个诞生于地心的文明。那里空间极度逼仄，自国家概念萌生之初，整个文明便迅速走向统一。所有人都怀有一个共同的信念——向外挖掘"
+		""
+		"你们能在灼热的地核中徒手取出地核碎片，将它们塑造成&e工具&r，亦是作为文明唯一的&e粮食&r"
+		""
+		"出生点极其狭小，而文明需要不断拓展生存空间，向外挖掘吧，奔腾不息的文明呐！"
+	]
+	quest.43C2E0BF9A518206.title: "地核层"
+	task.0EEF777D873C9388.title: "材料获取一览"
+	task.7F9706D37F7E176A.title: "山"
 }
