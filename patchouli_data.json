@@ -1,5 +1,15 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "anvilcraft_patchouli:guide": {
+      "viewedEntries": [
+        "anvilcraft_patchouli:basic/introduction",
+        "anvilcraft_patchouli:apply/enchantment_copy",
+        "anvilcraft_patchouli:apply/budding_echo_shard"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

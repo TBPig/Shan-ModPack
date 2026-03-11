@@ -19,6 +19,7 @@ kubejs/client_scripts/main.js
 kubejs/startup_scripts/main.js
 kubejs/README.txt
 kubejs/server_scripts/main.js
+kubejs/config/common.json
 
 # config shit
 config/tweakeroo.json
@@ -28,14 +29,27 @@ config/Mekanism/client.toml
 config/sound_physics_remastered
 config/itemscroller.json
 config/malilib.json
-
-
+config/anvilcraft_pigsplus-server.toml
+config/create-client.toml
+config/create-common.toml
+config/create-server.toml
+config/curios-client.toml
+config/curios-common.toml
+config/curios-server.toml
+config/flywheel-client.toml
+config/guideme.toml
+config/ponder-client.toml
+config/jade/plugins.json
+config/jade/sort-order.json
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
 
 
 /.idea
 log4j2.xml
 downloads/
 saves/
+screenshots/
 usercache.json
 usernamecache.json
 local/
@@ -45,3 +59,5 @@ options.txt
 
 
 itemscroller/recipes_新的世界.nbt
+
+

@@ -85,6 +85,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "anvilcraft_pigsplus": {
+    "electric_enchanting_table": true
+  },
   "anvilcraft": {
     "ruby_prism": true,
     "space_overcompressor": true,
