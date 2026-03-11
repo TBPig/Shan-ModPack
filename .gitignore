@@ -19,6 +19,7 @@ kubejs/client_scripts/main.js
 kubejs/startup_scripts/main.js
 kubejs/README.txt
 kubejs/server_scripts/main.js
+kubejs/config/probe-settings.json
 
 # config shit
 config/tweakeroo.json
@@ -29,7 +30,7 @@ config/sound_physics_remastered
 config/itemscroller.json
 config/malilib.json
 
-
+# unoffical mods
 
 
 /.idea
@@ -41,7 +42,10 @@ usernamecache.json
 local/
 command_history.txt
 options.txt
-
-
-
-itemscroller/recipes_新的世界.nbt
+itemscroller/
+.probe
+.vscode/
+config/jei/ingredient-list-mod-sort-order.ini
+kubejs/client_scripts/jsconfig.json
+kubejs/server_scripts/jsconfig.json
+kubejs/startup_scripts/jsconfig.json

@@ -110,6 +110,8 @@ sliding_rail_stick_to_each_other = false
 clean_fluid_after_update_menger_sponge = false
 #The max size of the entries in multiphases' recover station
 multiphase_recover_max_size = 20
+#Combining items with Enchanted Books beyond max level in Frost Anvil
+frost_anvil_beyond_max_level = false
 
 [power_converter]
 	#The working interval of power converters
