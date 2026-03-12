@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "materials"
+	group: "66765C841B5B04E0"
+	id: "4D4EAC017A12A655"
+	order_index: 0
+	quest_links: [
+		{
+			id: "73566B09E24674B6"
+			linked_quest: "43C2E0BF9A518206"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "225033003442AA5E"
+			linked_quest: "00FA4321E9F377D2"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "32178D17225BF401"
+			linked_quest: "3F7C8782D5182909"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	quests: [{
+		id: "529DDB7589DA90F7"
+		tasks: [{
+			id: "0EEF777D873C9388"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

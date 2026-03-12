@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wet_rock_layer"
+	group: "2433D3270A6AC07D"
+	icon: {
+		id: "minecraft:mossy_cobblestone"
+	}
+	id: "4B361C497F1F2A69"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+}

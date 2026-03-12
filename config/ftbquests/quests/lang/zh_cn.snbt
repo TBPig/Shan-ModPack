@@ -1,3 +1,50 @@
 {
-	chapter.6470C4CFA8AEF824.title: "test"
+	chapter.2AB632055ED2D585.title: "Water Layer"
+	chapter.2EE1121DB48B7388.title: "Gravity Layer"
+	chapter.2EEEDDCDC8F52C03.title: "Magnetic Layer"
+	chapter.4B361C497F1F2A69.title: "Wet Rock Layer"
+	chapter.4D4EAC017A12A655.title: "materials"
+	chapter.5C6B3A122B681589.title: "Cold Rock Layer"
+	chapter.7431497A57D91F07.title: "welcome"
+	chapter_group.2433D3270A6AC07D.title: "mainline"
+	chapter_group.66765C841B5B04E0.title: "info"
+	quest.00FA4321E9F377D2.quest_desc: ["此刻，你正置身于地核层与磁矿层的交界地带。地核层——你们文明的摇篮，蕴藏着故土的温度；而紧紧包裹其外的磁矿层，则由层层&a压缩的岩石&r堆叠而成。根据先遣队传回的情报，其中藏有与寻常岩石截然不同的奇异矿物。为了揭开它的秘密，文明&e需要采集样本&r。"]
+	quest.00FA4321E9F377D2.title: "磁性层"
+	quest.0FE5E6CE7D29F53E.quest_desc: [
+		"在铁砧氏族的眼中，世界万物皆可锻造。他们行事看似粗犷，却暗含章法：&e力能开山裂石，落点却精准如绣花&r。正是这份刚柔并济的巧思，让他们在坚硬的地核边缘，开辟出了一条属于自己的文明之路。"
+		""
+		"&7注意：整合包进行了大量魔改，指南中的主线流程已失效。跟着任务线走即可，有不理解的功能再看指南"
+	]
+	quest.0FE5E6CE7D29F53E.title: "铁砧氏族"
+	quest.3F7C8782D5182909.quest_desc: ["磁铁之间相互吸引的特性，在加工时造成了不小的麻烦。幸运的是，将&a磁铁&r丢到&e坚硬地核&r的表层，一段时间后，原本的磁性便会消失。"]
+	quest.3FD2BB1343B6B6C9.quest_desc: [
+		"靠近时，挖掘出的矿物竟慢慢像活物般彼此牵引、聚拢。更奇异的是——你感受到了一种无声的共鸣，仿佛它们在回应你的存在。一股暖意从灵魂深处涌出，流遍四肢，令&e疲惫消散&r"
+		""
+		"&a磁铁锭&r可以食用，且额外带有急迫II 速度III的效果"
+	]
+	quest.43C2E0BF9A518206.quest_desc: [
+		"你来自一个诞生于地心的文明。那里空间极度逼仄，自国家概念萌生之初，整个文明便迅速走向统一。所有人都怀有一个共同的信念——向外挖掘"
+		""
+		"你们能在灼热的地核中徒手取出&a地核碎片&r，将它们塑造成&e工具&r，亦是作为文明唯一的&e粮食&r"
+		""
+		"出生点极其狭小，而文明需要不断拓展生存空间，向外挖掘吧，奔腾不息的文明呐！"
+	]
+	quest.43C2E0BF9A518206.title: "地核层"
+	quest.4C21FE0234B81CD5.quest_desc: ["将&a炼药锅&r置于地核之上"]
+	quest.4C21FE0234B81CD5.title: "高温熔炼"
+	quest.4F9B5ED65FE4FB06.quest_desc: ["向上挖掘持续了许久，一股未知力量开始持续拖拽着挖掘者，同时已开掘的&e空间&r居然开始被上方的岩石&e逐步回填&r。"]
+	quest.4F9B5ED65FE4FB06.title: "未知力量"
+	quest.529DDB7589DA90F7.quest_desc: ["这一章节会提示在哪一阶段可以开始获得或自动化生产哪种材料"]
+	quest.605DAF35FAD6D779.quest_desc: [
+		"运用铁锭和石头，制造出导热框架和箱子"
+		""
+		"将&a箱子&r放于地核之上，再对其使用&a导热框架&r"
+		""
+		"依赖高温的地核，你们搭建了简单的加热装置"
+	]
+	quest.605DAF35FAD6D779.title: "简单加热"
+	quest.7BEB7204196444F1.quest_desc: ["飞行对你们来说习以为常，准备好工具后，便可以开始向上挖掘"]
+	quest.7BEB7204196444F1.quest_subtitle: "锋利且高效"
+	task.0EEF777D873C9388.title: "材料获取一览"
+	task.7F9706D37F7E176A.title: "山"
 }

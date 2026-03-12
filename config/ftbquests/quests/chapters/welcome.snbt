@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "7431497A57D91F07"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "pneumaticcraft:compressed_stone"
+		}
+		id: "7095C2301B11C3C4"
+		tasks: [{
+			id: "7F9706D37F7E176A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

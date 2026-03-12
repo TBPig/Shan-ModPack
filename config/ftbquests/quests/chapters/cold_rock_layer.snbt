@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cold_rock_layer"
+	group: "2433D3270A6AC07D"
+	icon: {
+		id: "minecraft:stone"
+	}
+	id: "5C6B3A122B681589"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magnetic_layer"
+	group: "2433D3270A6AC07D"
+	icon: {
+		id: "pneumaticcraft:compressed_stone"
+	}
+	id: "2EEEDDCDC8F52C03"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43C2E0BF9A518206"
+			rewards: [{
+				count: 64
+				id: "0D8F826873364093"
+				item: {
+					count: 1
+					id: "anvilcraft:earth_core_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AB18B00E23C5FD0"
+				item: { count: 1, id: "anvilcraft:earth_core_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "00FA4321E9F377D2"
+			tasks: [{
+				id: "232D8E77E4D27D31"
+				item: { count: 1, id: "pneumaticcraft:compressed_stone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "7BEB7204196444F1"
+			tasks: [{
+				id: "0F02E3079EF0BA72"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "76EA468C759BD9DE"
+			tasks: [{
+				id: "3127A6C5E559AEAF"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "3FD2BB1343B6B6C9"
+			rewards: [{
+				count: 64
+				id: "0CDFAFF82839A010"
+				item: {
+					count: 1
+					id: "anvilcraft:magnet_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BB8C1E078E1DFD0"
+				item: { count: 1, id: "anvilcraft:magnet_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "3F7C8782D5182909"
+			tasks: [{
+				id: "7EC310530B7DACF1"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:heat_frame"
+			}
+			id: "605DAF35FAD6D779"
+			tasks: [
+				{
+					id: "7197186DAD91D30B"
+					item: { count: 1, id: "pneumaticcraft:heat_frame" }
+					type: "item"
+				}
+				{
+					id: "0B2E8B38CD6DC1BD"
+					item: { count: 1, id: "minecraft:chest" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "0FE5E6CE7D29F53E"
+			rewards: [{
+				id: "15B1B5496C0A04F3"
+				item: {
+					count: 1
+					id: "anvilcraft:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73EC67F11200BCE3"
+				item: { count: 1, id: "minecraft:anvil" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4F9B5ED65FE4FB06"
+			tasks: [{
+				id: "7B56534540DFBA9D"
+				item: { count: 1, id: "minecraft:deepslate" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "4C21FE0234B81CD5"
+			tasks: [{
+				id: "7D9D06309A808FD6"
+				item: { count: 1, id: "minecraft:cauldron" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+	]
+}
