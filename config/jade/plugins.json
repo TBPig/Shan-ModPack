@@ -66,6 +66,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,

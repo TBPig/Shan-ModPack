@@ -58,6 +58,8 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
+advancedItemTooltips:true
+pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -149,7 +151,7 @@ key_key.jei.nextRecipePage:key.keyboard.page.down
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
-key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.jei.copy.recipe.id:key.keyboard.c
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -162,6 +164,7 @@ key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
 key_key.sophisticatedcore.sort:key.mouse.middle
 key_key.kubejs.kubedex:key.keyboard.k
+key_key.oneenoughitem.open_editor:key.keyboard.r
 key_pneumaticcraft.armor.options:key.keyboard.u
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.y
@@ -171,11 +174,11 @@ key_pneumaticcraft.boots.jet_boots:key.keyboard.space
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.guideme.guide:key.keyboard.g
 key_key.anvilcraft.switch_phase:key.keyboard.x
 key_key.anvilcraft.toggle_goggle:key.keyboard.unknown
