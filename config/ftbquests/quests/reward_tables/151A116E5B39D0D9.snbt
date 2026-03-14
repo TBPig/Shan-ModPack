@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "shan:ember_coin"
+	}
+	id: "151A116E5B39D0D9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 5
+			id: "7A3A807133A95FDD"
+			item: {
+				count: 1
+				id: "shan:ember_coin"
+			}
+			random_bonus: 1
+			weight: 19.0f
+		}
+		{ id: "24FB01AD05EC6735", item: { count: 1, id: "shan:transcendium_coin" } }
+	]
+}

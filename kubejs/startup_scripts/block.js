@@ -1,0 +1,10 @@
+StartupEvents.registry("block", (e) => {
+  e.create("shan:andesite_machine_prototype")
+    .soundType("stone")
+    .hardness(1.5)
+    .tagBlock("minecraft:mineable/pickaxe")
+  e.create("shan:redstone_prototype")
+    .soundType("stone")
+    .hardness(1.5)
+    .tagBlock("minecraft:mineable/pickaxe")
+})

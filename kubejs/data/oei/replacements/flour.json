@@ -1,0 +1,15 @@
+[
+  {
+    "matchItems": [
+      "pneumaticcraft:wheat_flour",
+      "create:wheat_flour"
+    ],
+    "resultItems": "anvilcraft:flour"
+  },
+  {
+    "matchItems": [
+      "create:dough"
+    ],
+    "resultItems": "anvilcraft:dough"
+  }
+]

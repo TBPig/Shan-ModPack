@@ -1,0 +1,38 @@
+[
+  {
+    "matchItems": [
+      "mekanism:deepslate_lead_ore"
+    ],
+    "resultItems": "anvilcraft:deepslate_lead_ore"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/lead"
+    ],
+    "resultItems": "anvilcraft:raw_lead"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/raw_lead"
+    ],
+    "resultItems": "anvilcraft:raw_lead_block"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/lead"
+    ],
+    "resultItems": "anvilcraft:lead_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/lead"
+    ],
+    "resultItems": "anvilcraft:lead_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/lead"
+    ],
+    "resultItems": "anvilcraft:lead_nugget"
+  }
+]

@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "shan:royal_coin"
+	}
+	id: "70A4DBA3708952A6"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 5
+			id: "2B75D90134B508F0"
+			item: {
+				count: 1
+				id: "shan:royal_coin"
+			}
+			weight: 19.0f
+		}
+		{ id: "3108F708FB002B8A", item: { count: 1, id: "shan:ember_coin" } }
+	]
+}

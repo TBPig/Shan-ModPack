@@ -32,6 +32,12 @@
 		{
 			dependencies: ["7BEB7204196444F1"]
 			id: "00FA4321E9F377D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E563E0823009CB4"
+				table_id: 6004191987904859169L
+				type: "random"
+			}]
 			shape: "pentagon"
 			size: 2.0d
 			tasks: [{
@@ -45,6 +51,12 @@
 		{
 			dependencies: ["43C2E0BF9A518206"]
 			id: "7BEB7204196444F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A938961FD5CE096"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0999607F75B0BF60"
 				item: { count: 1, id: "shan:earth_core_pickaxe" }
@@ -56,6 +68,12 @@
 		{
 			dependencies: ["00FA4321E9F377D2"]
 			id: "76EA468C759BD9DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0514EFAF76BA6A0D"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3127A6C5E559AEAF"
 				item: { count: 1, id: "minecraft:crafting_table" }
@@ -87,6 +105,12 @@
 		{
 			dependencies: ["605DAF35FAD6D779"]
 			id: "3F7C8782D5182909"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "455A259D0B8FFFEB"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7EC310530B7DACF1"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -101,6 +125,12 @@
 				id: "pneumaticcraft:heat_frame"
 			}
 			id: "605DAF35FAD6D779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E7DD56AF9FA5181"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7197186DAD91D30B"
@@ -149,6 +179,12 @@
 		{
 			dependencies: ["0FE5E6CE7D29F53E"]
 			id: "4C21FE0234B81CD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09C74628C4492E14"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7D9D06309A808FD6"
 				item: { count: 1, id: "minecraft:cauldron" }
@@ -288,6 +324,12 @@
 				"3DC75F86B791EFBF"
 			]
 			id: "0511999CB76EE83C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6158E305787D19DD"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6BA298F1127CE6B8"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -297,19 +339,14 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3DC75F86B791EFBF"]
-			id: "6ED67675CB51DED3"
-			tasks: [{
-				id: "3D7326C2F3E5A6F2"
-				item: { count: 1, id: "minecraft:andesite" }
-				type: "item"
-			}]
-			x: 18.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["6ED67675CB51DED3"]
+			dependencies: ["0511999CB76EE83C"]
 			id: "3825924A28B067A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365046A7662DF12D"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0D16F8E9F34AF61C"
@@ -317,11 +354,17 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["355177FD2712EF8F"]
 			id: "360F3D731AC82A57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FF72D52C9EF4128"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6BA87D014E4817BD"
 				item: { count: 1, id: "minecraft:cobblestone" }
@@ -336,6 +379,12 @@
 				"360F3D731AC82A57"
 			]
 			id: "55F36CA8E300692C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F68DC0114741AC6"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7B7AC5C5CE89BB09"
 				item: { count: 1, id: "minecraft:copper_ingot" }
@@ -345,18 +394,40 @@
 			y: -2.0d
 		}
 		{
+			icon: {
+				id: "anvilcraft:ionocraft_backpack"
+			}
 			id: "156802ABB3AB8770"
-			tasks: [{
-				id: "23FA63323DA4B7C3"
-				item: { count: 1, id: "anvilcraft:ionocraft_backpack" }
-				type: "item"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1577D428CA92A4F0"
+				table_id: 6004191987904859169L
+				type: "random"
 			}]
-			x: 26.0d
-			y: -3.0d
+			tasks: [
+				{
+					id: "39415285D7841219"
+					item: { count: 1, id: "anvilcraft:capacitor_empty" }
+					type: "item"
+				}
+				{
+					id: "23FA63323DA4B7C3"
+					item: { count: 1, id: "anvilcraft:ionocraft_backpack" }
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["55F36CA8E300692C"]
 			id: "65D3ECBC10F04959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DDEBE9C53D5EA74"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "695B8FBA28EB14DA"
 				item: { count: 1, id: "anvilcraft:magnetoelectric_core" }
@@ -368,6 +439,12 @@
 		{
 			dependencies: ["55F36CA8E300692C"]
 			id: "10805733291CB84B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FF4B18CF933AA0E"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0FCEF75927519646"
 				item: { count: 1, id: "anvilcraft:brass_ingot" }
@@ -386,6 +463,59 @@
 			}]
 			x: 6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3825924A28B067A1"]
+			id: "53F0F403774C9B6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448B7C2719660C29"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E4F39552531A208"
+				item: { count: 1, id: "shan:andesite_machine_prototype" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			id: "086EE7344FAA16B9"
+			rewards: [{
+				count: 64
+				id: "39683832FDAA6AF5"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "194F6EA12C8E3588"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["086EE7344FAA16B9"]
+			id: "520B284D1977B876"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "540E9C01197F9315"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B910E2B95638E2C"
+				item: { count: 1, id: "shan:redstone_prototype" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
 		}
 	]
 }

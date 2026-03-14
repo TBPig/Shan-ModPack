@@ -1,0 +1,38 @@
+[
+  {
+    "matchItems": [
+      "mekanism:deepslate_tin_ore"
+    ],
+    "resultItems": "anvilcraft:deepslate_tin_ore"
+  },
+  {
+    "matchItems": [
+      "#c:raw_materials/tin"
+    ],
+    "resultItems": "anvilcraft:raw_tin"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/raw_tin"
+    ],
+    "resultItems": "anvilcraft:raw_tin_block"
+  },
+  {
+    "matchItems": [
+      "#c:storage_blocks/tin"
+    ],
+    "resultItems": "anvilcraft:tin_block"
+  },
+  {
+    "matchItems": [
+      "#c:ingots/tin"
+    ],
+    "resultItems": "anvilcraft:tin_ingot"
+  },
+  {
+    "matchItems": [
+      "#c:nuggets/tin"
+    ],
+    "resultItems": "anvilcraft:tin_nugget"
+  }
+]
