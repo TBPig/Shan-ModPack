@@ -66,5 +66,6 @@ itemscroller/
 .probe
 .vscode/
 config/jei/
-
+fancymenu_data/last_world.fmdata
+config/inventoryprofilesnext/
 
