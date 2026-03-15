@@ -68,6 +68,5 @@ itemscroller/
 .probe
 .vscode/
 config/jei/
-fancymenu_data/last_world.fmdata
-
-
+#fancymenu_data/last_world.fmdata
+#options.txt
