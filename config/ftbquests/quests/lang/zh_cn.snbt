@@ -25,6 +25,21 @@
 		"&7注：整合包进行了大量魔改，指南中的主线流程已失效。跟着任务线走即可，有不理解的功能再看指南"
 	]
 	quest.0FE5E6CE7D29F53E.title: "铁砧氏族"
+	quest.156802ABB3AB8770.quest_desc: ["1"]
+	quest.1BB1908D64E7F634.quest_desc: [
+		"配合铁砧，可以完成[物品冲压]配方，可以以更小的成本制作压力板（等价于金属板）"
+		""
+		"注：[物品冲压]和[冲压]不是一个东西，前者来自&e铁砧工艺&r， 后者来自&e机械动力&r"
+	]
+	quest.2E65092119E75E5F.quest_desc: [
+		"有两种办法进行自动制作："
+		""
+		"1.  将&a磨制重质铁块&r放出来，在上方放置&a投掷器&r，然后用铁砧砸"
+		""
+		"2.  为&a磨制重质铁块台阶&r安装漏斗（手动右击或使用机械手）"
+		""
+		"可通过切石机进一步制作成各种物流元件"
+	]
 	quest.355177FD2712EF8F.quest_desc: ["压力氏族以压强为工具，通过对物体表面施加可控压力来实现加工。在他们手中，最脆弱的岩层也能变成最坚固的构件——只需找到那个&e恰到好处的压强&r。"]
 	quest.355177FD2712EF8F.title: "压力氏族"
 	quest.360F3D731AC82A57.quest_desc: [
@@ -68,6 +83,7 @@
 		"    向&a脚手架&r投入物品，再用铁砧砸击，可一次性处理整组物品。"
 	]
 	quest.478751A2D764AA88.title: "粉碎与过筛"
+	quest.48E0954D6B9B2EAC.quest_desc: ["极大致密的铁块"]
 	quest.4C21FE0234B81CD5.quest_desc: [
 		"将&a炼药锅&r置于地核之上"
 		""
@@ -139,6 +155,13 @@
 		"依赖高温的地核，你们搭建了简单的加热装置"
 	]
 	quest.605DAF35FAD6D779.title: "简单加热"
+	quest.65D3ECBC10F04959.quest_desc: [
+		"工匠注意到，当磁矿石靠近缠绕成圈的金属线时，远处的金属碎片竟自行移动——被称为“电流”的力量首次被察觉。"
+		""
+		"&7建议查看：铁砧工艺指南/电力系统"
+		""
+		"&7对着集电器等方块长按[G]可以查看如何发电"
+	]
 	quest.65D3ECBC10F04959.title: "电磁学"
 	quest.7BEB7204196444F1.quest_desc: ["飞行对你们来说习以为常，准备好工具后，便可以开始向上挖掘"]
 	quest.7BEB7204196444F1.quest_subtitle: "锋利且高效"
@@ -146,6 +169,13 @@
 	reward_table.53532CCD2A50CC21.title: "一堆硬币"
 	reward_table.687EEEC2B3B56027.title: "一车硬币"
 	reward_table.70A4DBA3708952A6.title: "一点硬币"
+	task.0BF06C16FE4ACA68.title: "重力层"
 	task.0EEF777D873C9388.title: "材料获取一览"
+	task.1FB90AD4CB223681.title: "重力层"
+	task.2987FB408B1656FC.title: "1"
+	task.37754E21C796C82B.title: "重力层"
+	task.5E00353897F32A97.title: "1"
+	task.674AC412A3002FBB.title: "1"
+	task.6F266F6B382173EC.title: "z"
 	task.7F9706D37F7E176A.title: "山"
 }

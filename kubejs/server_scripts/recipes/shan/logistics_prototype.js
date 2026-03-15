@@ -1,0 +1,36 @@
+ServerEvents.recipes((event) => {
+  event.custom({
+    "type": "anvilcraft:block_compress",
+    "inputs": [
+      {
+        "blocks": 'minecraft:dropper'
+      },
+      {
+        "blocks": 'anvilcraft:polished_heavy_iron_block'
+      }
+    ],
+    "result": {
+      "block": "shan:logistics_prototype"
+    }
+  })
+  event.recipes.create.item_application("shan:logistics_prototype", ['anvilcraft:polished_heavy_iron_slab', 'minecraft:hopper'])
+  function LogisticsPrototype(block, num) {
+    event.remove({ output: block })
+    event.stonecutting(`${num}x ${block}`, "shan:logistics_prototype")
+  }
+  LogisticsPrototype('create:andesite_funnel', 4)
+  LogisticsPrototype('create:brass_funnel', 1)
+  LogisticsPrototype('create:andesite_tunnel', 4)
+  LogisticsPrototype('create:brass_tunnel', 1)
+  LogisticsPrototype('create:belt_connector', 1)
+  LogisticsPrototype('create:chute', 4)
+  LogisticsPrototype('create:smart_chute', 1)
+  LogisticsPrototype('create:weighted_ejector', 1)
+  LogisticsPrototype('create:packager', 1)
+  LogisticsPrototype('create:repackager', 1)
+  LogisticsPrototype('create:package_frogport', 1)
+  LogisticsPrototype('create:white_postbox', 2)
+  LogisticsPrototype('anvilcraft:magnetic_chute', 4)
+  LogisticsPrototype('anvilcraft:chute', 4)
+  LogisticsPrototype('pneumaticcraft:omnidirectional_hopper', 4)
+})

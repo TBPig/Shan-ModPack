@@ -190,8 +190,8 @@
 				item: { count: 1, id: "minecraft:cauldron" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 16.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0FE5E6CE7D29F53E"]
@@ -394,6 +394,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["65D3ECBC10F04959"]
 			icon: {
 				id: "anvilcraft:ionocraft_backpack"
 			}
@@ -416,8 +417,8 @@
 					type: "item"
 				}
 			]
-			x: 28.0d
-			y: -1.0d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55F36CA8E300692C"]
@@ -428,30 +429,25 @@
 				table_id: 8116853923442676390L
 				type: "random"
 			}]
-			tasks: [{
-				id: "695B8FBA28EB14DA"
-				item: { count: 1, id: "anvilcraft:magnetoelectric_core" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "695B8FBA28EB14DA"
+					item: { count: 1, id: "anvilcraft:magnetoelectric_core" }
+					type: "item"
+				}
+				{
+					id: "274E54193B35CFEF"
+					item: { count: 1, id: "anvilcraft:charge_collector" }
+					type: "item"
+				}
+				{
+					id: "7CAC87A039480BA8"
+					item: { count: 1, id: "anvilcraft:transmission_pole" }
+					type: "item"
+				}
+			]
 			x: 22.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["55F36CA8E300692C"]
-			id: "10805733291CB84B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1FF4B18CF933AA0E"
-				table_id: 8116853923442676390L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0FCEF75927519646"
-				item: { count: 1, id: "anvilcraft:brass_ingot" }
-				type: "item"
-			}]
-			x: 22.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["76EA468C759BD9DE"]
@@ -479,7 +475,7 @@
 				type: "item"
 			}]
 			x: 22.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			id: "086EE7344FAA16B9"
@@ -516,6 +512,99 @@
 			}]
 			x: 16.0d
 			y: 4.0d
+		}
+		{
+			id: "48E0954D6B9B2EAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72248BF8DA259919"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F0F98C1108AF777"
+				item: { count: 1, id: "anvilcraft:heavy_iron_block" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48E0954D6B9B2EAC"]
+			id: "2E65092119E75E5F"
+			tasks: [{
+				id: "66BDEE721CB667CD"
+				item: { count: 1, id: "shan:logistics_prototype" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3825924A28B067A1"]
+			id: "3DF889C601B863DF"
+			rewards: [{
+				id: "5E30A76274D53C2E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0F1DC3F90E6B7082"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["355177FD2712EF8F"]
+			id: "1BAC3D89A52EB3AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76F9491FD3751406"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18173F6EE7FBDB1D"
+				item: { count: 1, id: "pneumaticcraft:heat_sink" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FE5E6CE7D29F53E"]
+			id: "1BB1908D64E7F634"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21B79BBA805E17C2"
+				table_id: 8116853923442676390L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1D0ACCCA904104A5"
+					item: { count: 1, id: "anvilcraft:stamping_platform" }
+					type: "item"
+				}
+				{
+					id: "688D018A64700EF6"
+					item: { count: 1, id: "minecraft:heavy_weighted_pressure_plate" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			id: "3720560727406D39"
+			tasks: [{
+				id: "37754E21C796C82B"
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: -1.0d
 		}
 	]
 }
