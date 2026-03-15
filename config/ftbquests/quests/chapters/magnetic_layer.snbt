@@ -148,6 +148,7 @@
 		}
 		{
 			dependencies: ["3F7C8782D5182909"]
+			hide_dependent_lines: true
 			id: "0FE5E6CE7D29F53E"
 			rewards: [{
 				id: "15B1B5496C0A04F3"
@@ -191,7 +192,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0FE5E6CE7D29F53E"]
@@ -394,7 +395,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["65D3ECBC10F04959"]
+			dependencies: ["7291AC0113AC1D17"]
 			icon: {
 				id: "anvilcraft:ionocraft_backpack"
 			}
@@ -407,18 +408,18 @@
 			}]
 			tasks: [
 				{
-					id: "39415285D7841219"
-					item: { count: 1, id: "anvilcraft:capacitor_empty" }
-					type: "item"
-				}
-				{
 					id: "23FA63323DA4B7C3"
 					item: { count: 1, id: "anvilcraft:ionocraft_backpack" }
 					type: "item"
 				}
+				{
+					id: "4C5A008E994C317E"
+					item: { count: 1, id: "anvilcraft:capacitor_empty" }
+					type: "item"
+				}
 			]
-			x: 24.0d
-			y: 0.0d
+			x: 26.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["55F36CA8E300692C"]
@@ -493,7 +494,7 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 4.0d
 		}
 		{
@@ -510,10 +511,11 @@
 				item: { count: 1, id: "shan:redstone_prototype" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
+			dependencies: ["0FE5E6CE7D29F53E"]
 			id: "48E0954D6B9B2EAC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -526,7 +528,7 @@
 				item: { count: 1, id: "anvilcraft:heavy_iron_block" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 6.0d
 		}
 		{
@@ -537,7 +539,7 @@
 				item: { count: 1, id: "shan:logistics_prototype" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 6.0d
 		}
 		{
@@ -571,7 +573,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0FE5E6CE7D29F53E"]
@@ -595,12 +597,71 @@
 				}
 			]
 			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["629ED045966F7E06"]
+			icon: {
+				id: "minecraft:deepslate"
+			}
+			id: "3720560727406D39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B03027584EB55D"
+				table_id: 6004191987904859169L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "37754E21C796C82B"
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"53F0F403774C9B6F"
+				"65D3ECBC10F04959"
+			]
+			id: "4AC10E12E9A697B0"
+			tasks: [{
+				id: "145D9265E84F3A60"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"355177FD2712EF8F"
+				"65D3ECBC10F04959"
+			]
+			id: "741E941C1085F256"
+			tasks: [{
+				id: "44377C27716DD86A"
+				type: "checkmark"
+			}]
+			x: 22.0d
 			y: 1.0d
 		}
 		{
-			id: "3720560727406D39"
+			dependencies: ["65D3ECBC10F04959"]
+			id: "7291AC0113AC1D17"
 			tasks: [{
-				id: "37754E21C796C82B"
+				id: "2215E41BEDCDA926"
+				item: { count: 1, id: "anvilcraft:ionocraft" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7291AC0113AC1D17"]
+			id: "629ED045966F7E06"
+			tasks: [{
+				id: "67313D3D2A915EAC"
 				type: "checkmark"
 			}]
 			x: 26.0d

@@ -15,5 +15,4 @@ ServerEvents.recipes((event) => {
   })
 
   // global.pressing(event,"anvilcraft:earth_core_shard", "shan:earth_core_stick")
-
 })

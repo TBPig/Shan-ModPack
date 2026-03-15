@@ -3,11 +3,9 @@
 	chapter.2EE1121DB48B7388.title: "Gravity Layer"
 	chapter.2EEEDDCDC8F52C03.title: "Magnetic Layer"
 	chapter.4B361C497F1F2A69.title: "Wet Rock Layer"
-	chapter.4D4EAC017A12A655.title: "materials"
 	chapter.5C6B3A122B681589.title: "Cold Rock Layer"
 	chapter.7431497A57D91F07.title: "welcome"
 	chapter_group.2433D3270A6AC07D.title: "mainline"
-	chapter_group.66765C841B5B04E0.title: "info"
 	quest.00FA4321E9F377D2.quest_desc: ["此刻，你正置身于地核层与磁矿层的交界地带。地核层——你们文明的摇篮，蕴藏着故土的温度；而紧紧包裹其外的磁矿层，则由层层&a压缩的岩石&r堆叠而成。根据先遣队传回的情报，其中藏有与寻常岩石截然不同的奇异矿物。为了揭开它的秘密，文明&e需要采集样本&r。"]
 	quest.00FA4321E9F377D2.title: "磁性层"
 	quest.0511999CB76EE83C.quest_desc: [
@@ -19,18 +17,35 @@
 	]
 	quest.0511999CB76EE83C.title: "再生石英"
 	quest.086EE7344FAA16B9.quest_desc: ["在y-30~-50有所分布"]
+	quest.0F56267C7940B592.quest_desc: [
+		"深板岩圆石 [粉碎]-> &a黑沙&r"
+		"黑沙 [过筛]-> &a煤炭 钻石  红石 钨&r"
+	]
 	quest.0FE5E6CE7D29F53E.quest_desc: [
 		"在铁砧氏族的眼中，世界万物皆可锻造。他们行事看似粗犷，却暗含章法：&e力能开山裂石，落点却精准如绣花&r。正是这份刚柔并济的巧思，让他们在坚硬的地核边缘，开辟出了一条属于自己的文明之路。"
 		""
 		"&7注：整合包进行了大量魔改，指南中的主线流程已失效。跟着任务线走即可，有不理解的功能再看指南"
 	]
 	quest.0FE5E6CE7D29F53E.title: "铁砧氏族"
-	quest.156802ABB3AB8770.quest_desc: ["1"]
+	quest.156802ABB3AB8770.quest_desc: ["飘升机背包消耗电量克服重力，且飞行时不会有挖掘惩罚"]
 	quest.1BB1908D64E7F634.quest_desc: [
 		"配合铁砧，可以完成[物品冲压]配方，可以以更小的成本制作压力板（等价于金属板）"
 		""
 		"注：[物品冲压]和[冲压]不是一个东西，前者来自&e铁砧工艺&r， 后者来自&e机械动力&r"
 	]
+	quest.1FFF573B5BAB5386.quest_desc: [
+		"文明组织矿工在重力层挖掘，则发现了&a晶洞&r，晶洞可以被砸碎成紫水晶和各种宝石"
+		""
+		"矿工将被抽象为\\\"探险营地\\\"方块，其被放在重力层时，塞入满电的飘升机背包，便会缓慢产出当前岩层的特殊资源，在硬岩层为晶洞。不消耗装备，属被动产出类型。"
+	]
+	quest.269304070F172089.quest_desc: [
+		"有两种办法："
+		""
+		"1. 挖掘深板岩后，空气会由于坍塌机制被逐步回填，由此，可以制造采石场"
+		""
+		"2. 使用铁砧将二块石头压合成深板岩，然后挖掘"
+	]
+	quest.269304070F172089.title: "量产深板岩"
 	quest.2E65092119E75E5F.quest_desc: [
 		"有两种办法进行自动制作："
 		""
@@ -61,6 +76,7 @@
 		"前者便于批量合成，后者转换率高出50%"
 	]
 	quest.3DC75F86B791EFBF.quest_desc: ["在y-30~-50有所分布，可用于制作石英"]
+	quest.3DF889C601B863DF.quest_desc: ["大概用不到它，建议造电动机"]
 	quest.3F7C8782D5182909.quest_desc: ["磁铁之间相互吸引的特性，在加工时造成了不小的麻烦。幸运的是，将&a磁铁&r加热一段时间后，原本的磁性便会消失。"]
 	quest.3FD2BB1343B6B6C9.quest_desc: ["在y-60~-45有所分布"]
 	quest.43C2E0BF9A518206.quest_desc: [
@@ -84,6 +100,11 @@
 	]
 	quest.478751A2D764AA88.title: "粉碎与过筛"
 	quest.48E0954D6B9B2EAC.quest_desc: ["极大致密的铁块"]
+	quest.4AC10E12E9A697B0.quest_desc: [
+		"消耗电力产生应力"
+		""
+		"等附属"
+	]
 	quest.4C21FE0234B81CD5.quest_desc: [
 		"将&a炼药锅&r置于地核之上"
 		""
@@ -147,6 +168,14 @@
 		"沙子 [过筛]-> &a金 粘土&r"
 	]
 	quest.55F36CA8E300692C.title: "再生金属"
+	quest.5E76C5BAFD501766.quest_desc: [
+		"大巫发现可以将地核碎片捏出嘴和口，配合铁块制作＂铁傀儡＂。"
+		""
+		"它被铁砧砸击可以产出铁锭，只需要一小部分铁就可以被修复。"
+		"&7铁砧工艺指南/机器示例/刷铁机"
+		""
+		"遗憾的是，它一进入磁性层就会开始融化死亡"
+	]
 	quest.605DAF35FAD6D779.quest_desc: [
 		"运用铁锭和石头，制造出导热框架和箱子"
 		""
@@ -155,14 +184,28 @@
 		"依赖高温的地核，你们搭建了简单的加热装置"
 	]
 	quest.605DAF35FAD6D779.title: "简单加热"
+	quest.629ED045966F7E06.quest_desc: [
+		"使用飘升机阻止5x5x5范围的方块被坍塌的岩石填埋，为文明在重力层层取得了发展的空间."
+		""
+		"需要持续输入磁电核心维持工作"
+		""
+		"等 core.jar"
+	]
 	quest.65D3ECBC10F04959.quest_desc: [
 		"工匠注意到，当磁矿石靠近缠绕成圈的金属线时，远处的金属碎片竟自行移动——被称为“电流”的力量首次被察觉。"
+		""
+		"使用&a压力室&r制造磁电核心更便宜"
 		""
 		"&7建议查看：铁砧工艺指南/电力系统"
 		""
 		"&7对着集电器等方块长按[G]可以查看如何发电"
 	]
 	quest.65D3ECBC10F04959.title: "电磁学"
+	quest.741E941C1085F256.quest_desc: [
+		"消耗电力增加压力"
+		""
+		"等附属"
+	]
 	quest.7BEB7204196444F1.quest_desc: ["飞行对你们来说习以为常，准备好工具后，便可以开始向上挖掘"]
 	quest.7BEB7204196444F1.quest_subtitle: "锋利且高效"
 	reward_table.151A116E5B39D0D9.title: "一箱硬币"
@@ -171,10 +214,16 @@
 	reward_table.70A4DBA3708952A6.title: "一点硬币"
 	task.0BF06C16FE4ACA68.title: "重力层"
 	task.0EEF777D873C9388.title: "材料获取一览"
+	task.145D9265E84F3A60.title: "电动机"
 	task.1FB90AD4CB223681.title: "重力层"
 	task.2987FB408B1656FC.title: "1"
 	task.37754E21C796C82B.title: "重力层"
+	task.3F1E233B3CE1999D.title: "矿工营地"
+	task.44377C27716DD86A.title: "电力压缩机"
+	task.54E7F6F72D6C1E2C.title: "过筛黑沙"
+	task.56F24349D71EA3A7.title: "铁傀儡"
 	task.5E00353897F32A97.title: "1"
+	task.67313D3D2A915EAC.title: "飘升机库"
 	task.674AC412A3002FBB.title: "1"
 	task.6F266F6B382173EC.title: "z"
 	task.7F9706D37F7E176A.title: "山"

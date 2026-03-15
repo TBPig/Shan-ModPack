@@ -8,6 +8,79 @@
 	}
 	id: "2EE1121DB48B7388"
 	order_index: 1
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "6B34C7A629337462"
+		linked_quest: "3720560727406D39"
+		shape: "pentagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3720560727406D39"]
+			id: "269304070F172089"
+			tasks: [{
+				id: "5ABB223BD71FDC3E"
+				item: { count: 1, id: "minecraft:cobbled_deepslate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3720560727406D39"]
+			id: "5E76C5BAFD501766"
+			tasks: [{
+				id: "56F24349D71EA3A7"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["269304070F172089"]
+			id: "0F56267C7940B592"
+			tasks: [{
+				id: "54E7F6F72D6C1E2C"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3720560727406D39"]
+			icon: {
+				id: "anvilcraft:geode"
+			}
+			id: "1FFF573B5BAB5386"
+			tasks: [
+				{
+					id: "3F1E233B3CE1999D"
+					type: "checkmark"
+				}
+				{
+					id: "1B4AFCCBD78E8742"
+					item: { count: 1, id: "anvilcraft:geode" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1FFF573B5BAB5386"
+				"0F56267C7940B592"
+			]
+			id: "1A0ED6EF840686C8"
+			tasks: [{
+				id: "6884F7127B145834"
+				item: { count: 1, id: "anvilcraft:royal_steel_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+	]
 }
