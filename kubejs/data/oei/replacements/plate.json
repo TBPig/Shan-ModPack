@@ -1,0 +1,26 @@
+[
+  {
+    "matchItems": [
+      "#c:plates/brass"
+    ],
+    "resultItems": "anvilcraft:brass_pressure_plate"
+  },
+  {
+    "matchItems": [
+      "#c:plates/copper"
+    ],
+    "resultItems": "anvilcraft:copper_pressure_plate"
+  },
+  {
+    "matchItems": [
+      "#c:plates/iron"
+    ],
+    "resultItems": "minecraft:heavy_weighted_pressure_plate"
+  },
+  {
+    "matchItems": [
+      "#c:plates/gold"
+    ],
+    "resultItems": "minecraft:light_weighted_pressure_plate"
+  }
+]
