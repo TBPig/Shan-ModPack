@@ -1,18 +1,9 @@
 ServerEvents.recipes((event) => {
-  event.custom({
-    "type": "anvilcraft:item_inject",
-    "block_ingredient": {
-      "blocks": 'pneumaticcraft:compressed_stone'
-    },
-    "block_result": {
-      "block": 'shan:andesite_machine_prototype'
-    },
-    "ingredients": [
-      {
-        "items": 'create:andesite_alloy'
-      }
-    ]
-  })
+  event.recipes.anvilcraft.item_inject()
+    .requires('create:andesite_alloy')
+    .inputBlock('pneumaticcraft:compressed_stone')
+    .resultBlock('shan:andesite_machine_prototype')
+
   event.recipes.create.item_application('shan:andesite_machine_prototype', ['create:andesite_casing', 'minecraft:iron_ingot'])
   function andesiteMachinePrototype(block, num) {
     event.remove({ output: block })
@@ -44,5 +35,4 @@ ServerEvents.recipes((event) => {
   andesiteMachinePrototype('create:encased_chain_drive', 3)
   andesiteMachinePrototype('create:gearshift', 1)
   andesiteMachinePrototype('create:clutch', 1)
-  andesiteMachinePrototype('create:analog_lever', 1)
 })

@@ -1,18 +1,9 @@
 ServerEvents.recipes((event) => {
-  event.custom({
-    "type": "anvilcraft:block_compress",
-    "inputs": [
-      {
-        "blocks": 'minecraft:dropper'
-      },
-      {
-        "blocks": 'anvilcraft:polished_heavy_iron_block'
-      }
-    ],
-    "result": {
-      "block": "shan:logistics_prototype"
-    }
-  })
+  event.recipes.anvilcraft.block_compress()
+    .input('minecraft:dropper')
+    .input('anvilcraft:polished_heavy_iron_block')
+    .result("shan:logistics_prototype")
+
   event.recipes.create.item_application("shan:logistics_prototype", ['anvilcraft:polished_heavy_iron_slab', 'minecraft:hopper'])
   function LogisticsPrototype(block, num) {
     event.remove({ output: block })

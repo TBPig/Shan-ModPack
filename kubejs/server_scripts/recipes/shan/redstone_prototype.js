@@ -1,18 +1,9 @@
 ServerEvents.recipes((event) => {
-  event.custom({
-    "type": "anvilcraft:item_inject",
-    "block_ingredient": {
-      "blocks": 'minecraft:smooth_stone'
-    },
-    "block_result": {
-      "block": "shan:redstone_prototype"
-    },
-    "ingredients": [
-      {
-        "items": 'minecraft:redstone'
-      }
-    ]
-  })
+  event.recipes.anvilcraft.item_inject()
+    .requires('minecraft:redstone')
+    .inputBlock('minecraft:smooth_stone')
+    .resultBlock('shan:redstone_prototype')
+
   event.recipes.create.item_application("shan:redstone_prototype", ['minecraft:smooth_stone', 'minecraft:redstone_torch'])
   function redStonePrototype(block, num) {
     event.remove({ output: block })
